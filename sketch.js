@@ -27,7 +27,7 @@ function setup() {
   img.loadPixels(); 
   
   frameRate(20);
-  background(15);
+  background(10);
   many = random(fibo);
   
   for (let i=0; i < img.pixels.length; i += 4) {
